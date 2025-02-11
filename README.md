@@ -46,7 +46,7 @@ main.py         # project extrance
        /Amodel     # attack models
 /train_model     # code for training and testing the victim model
 ```
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* To use your own dataset, you can put the data graphs, ground truth communities to data\amazon\comms.pkl and data\amazon\edges.pkl.
+* The format of input graph Cora/Citeseer and feature follows G-Meta ; The Cora/Citeseer datasets are from torch-geometric; For DBLP/Amazon/LiveJournal, you can download it in [SNAP] (https://snap.stanford.edu/data/com-DBLP.html); For Facebook, find it in [SNAP] (https://snap.stanford.edu/data/ego-Facebook.html).
+
 
