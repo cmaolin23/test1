@@ -18,44 +18,20 @@ torch 1.7.1
 torch-geometric 1.7
 ```
 
-### Installing
+### Quick Start
+Train model on DBLP with surrogate model csgnn 
+Running DBLP with attacked model COCLE
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-/```
-Give the example
-/```
-
-And repeat
-
-/```
-until finished
-/```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-/```
-Give an example
-/```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-/```
-Give an example
-/```
-
+```
+python main.py    \
+       --data_set DBLP     \
+       --gnn_type GAT     \
+       --vmodel caf     \
+       --smodel csgnn     \
+       --num_pos 5     \
+       --num_neg 5     \
+       --...     \
+```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
