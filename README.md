@@ -35,16 +35,16 @@ python main.py    \
 
 ## Project Structure
 ```
-main.py         # project extrance
-/utils/utils.py         # generate tasks for different datasets
-/dataloader/dataloader_tasks.py # extract query from subgraphs and generate dataset
-/args/args.py     # parameters settings
-/data     # dataset and preprocess code
-/loss_criteria/loss.py     # loss function
+main.py                                                 # project extrance
+/utils/utils.py                                         # generate tasks for different datasets
+/dataloader/dataloader_tasks.py                         # extract query from subgraphs and generate dataset
+/args/args.py                                           # parameters settings
+/data                                                   # dataset and preprocess code
+/loss_criteria/loss.py                                  # loss function
 /model
-       /Vmodel     # victim models(learning based CS models)
-       /Amodel     # attack models
-/train_model     # code for training and testing the victim model
+       /Vmodel                                          # victim models(learning based CS models)
+       /Amodel                                          # attack models
+/train_model                                            # code for training and testing the victim model
 ```
 * To use your own dataset, you can put the data graphs, ground truth communities to data\amazon\comms.pkl and data\amazon\edges.pkl.
 * The format of input graph Cora/Citeseer and feature follows G-Meta ; The Cora/Citeseer datasets are from torch-geometric; For DBLP/Amazon/LiveJournal, you can download it in [SNAP] (https://snap.stanford.edu/data/com-DBLP.html); For Facebook, find it in [SNAP] (https://snap.stanford.edu/data/ego-Facebook.html).
