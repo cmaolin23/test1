@@ -1,6 +1,6 @@
-# Project Title
+# Effective and Efficient Attacks Against Learning-Based Community Search Methods
 
-One Paragraph of project description goes here
+A PyTorch + torch-geometric implementation of our attack methods on learning based community search algorithm.
 
 ## Getting Started
 
@@ -8,11 +8,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-/```
-Give examples
-/```
+```
+python 3.8
+networkx
+numpy
+scipy
+scikit-learn
+torch 1.7.1
+torch-geometric 1.7
+```
 
 ### Installing
 
